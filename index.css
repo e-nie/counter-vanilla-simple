@@ -1,0 +1,38 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+    border: 0;
+}
+
+h1, #counter {
+    text-align: center;
+    font-weight: 700;
+    font-size: 46px;
+    font-family: 'Kanit', SansSerif;
+    color: #1c2b59;
+    text-transform: uppercase;
+    padding: 60px;
+}
+
+.flex-container {
+    display: flex;
+    width: 30vw;
+    margin: 0 auto;
+    justify-content: space-around;
+
+}
+
+
+.btn {
+    text-transform: uppercase;
+    font-family: 'Kanit', SansSerif;
+    font-size: 24px;
+    font-weight: 500;
+    padding: 15px;
+    background-color: royalblue;
+    border: 2px solid #1c2b59;
+    border-radius: 10px;
+    color: #a0b2e7;
+}
+
