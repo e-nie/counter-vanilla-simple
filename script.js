@@ -1,13 +1,14 @@
 const counterSelector = document.getElementById('counter');
 
+let count = 0;
 const minus = () => {
-    counterSelector.innerText = +counterSelector.innerText - 1;
+    counterSelector.innerText = --count;
 };
 
 const plus = () => {
-    counterSelector.innerText = +counterSelector.innerText + 1;
+    counterSelector.innerText = ++count;
 };
 
 const reset = () => {
-    counterSelector.innerText = 0;
+    counterSelector.innerText=0
 };
